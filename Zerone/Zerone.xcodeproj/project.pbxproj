@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F6863E7190FAC1A000BA7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6863E6190FAC1A000BA7B3 /* Foundation.framework */; };
+		5F6863E9190FAC1A000BA7B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6863E8190FAC1A000BA7B3 /* CoreGraphics.framework */; };
+		5F6863EB190FAC1A000BA7B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6863EA190FAC1A000BA7B3 /* UIKit.framework */; };
+		5F6863F1190FAC1A000BA7B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F6863EF190FAC1A000BA7B3 /* InfoPlist.strings */; };
+		5F6863F3190FAC1A000BA7B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6863F2190FAC1A000BA7B3 /* main.m */; };
+		5F6863F7190FAC1A000BA7B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6863F6190FAC1A000BA7B3 /* AppDelegate.m */; };
+		5F6863FA190FAC1A000BA7B3 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6863F8190FAC1A000BA7B3 /* Main_iPhone.storyboard */; };
+		5F6863FD190FAC1A000BA7B3 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6863FB190FAC1A000BA7B3 /* Main_iPad.storyboard */; };
+		5F686400190FAC1A000BA7B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6863FF190FAC1A000BA7B3 /* ViewController.m */; };
+		5F686402190FAC1A000BA7B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F686401190FAC1A000BA7B3 /* Images.xcassets */; };
+		5F686409190FAC1A000BA7B3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F686408190FAC1A000BA7B3 /* XCTest.framework */; };
+		5F68640A190FAC1A000BA7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6863E6190FAC1A000BA7B3 /* Foundation.framework */; };
+		5F68640B190FAC1A000BA7B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6863EA190FAC1A000BA7B3 /* UIKit.framework */; };
+		5F686413190FAC1B000BA7B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F686411190FAC1B000BA7B3 /* InfoPlist.strings */; };
+		5F686415190FAC1B000BA7B3 /* ZeroneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F686414190FAC1B000BA7B3 /* ZeroneTests.m */; };
+		5F686421190FD546000BA7B3 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F686420190FD546000BA7B3 /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F68640C190FAC1A000BA7B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F6863DB190FAC1A000BA7B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F6863E2190FAC1A000BA7B3;
+			remoteInfo = Zerone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F6863E3190FAC1A000BA7B3 /* Zerone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zerone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F6863E6190FAC1A000BA7B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F6863E8190FAC1A000BA7B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F6863EA190FAC1A000BA7B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F6863EE190FAC1A000BA7B3 /* Zerone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zerone-Info.plist"; sourceTree = "<group>"; };
+		5F6863F0190FAC1A000BA7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F6863F2190FAC1A000BA7B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F6863F4190FAC1A000BA7B3 /* Zerone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zerone-Prefix.pch"; sourceTree = "<group>"; };
+		5F6863F5190FAC1A000BA7B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F6863F6190FAC1A000BA7B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F6863F9190FAC1A000BA7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		5F6863FC190FAC1A000BA7B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		5F6863FE190FAC1A000BA7B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F6863FF190FAC1A000BA7B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F686401190FAC1A000BA7B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F686407190FAC1A000BA7B3 /* ZeroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZeroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F686408190FAC1A000BA7B3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5F686410190FAC1B000BA7B3 /* ZeroneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZeroneTests-Info.plist"; sourceTree = "<group>"; };
+		5F686412190FAC1B000BA7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F686414190FAC1B000BA7B3 /* ZeroneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZeroneTests.m; sourceTree = "<group>"; };
+		5F686420190FD546000BA7B3 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6863E0190FAC1A000BA7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6863E9190FAC1A000BA7B3 /* CoreGraphics.framework in Frameworks */,
+				5F6863EB190FAC1A000BA7B3 /* UIKit.framework in Frameworks */,
+				5F6863E7190FAC1A000BA7B3 /* Foundation.framework in Frameworks */,
+				5F686421190FD546000BA7B3 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F686404190FAC1A000BA7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F686409190FAC1A000BA7B3 /* XCTest.framework in Frameworks */,
+				5F68640B190FAC1A000BA7B3 /* UIKit.framework in Frameworks */,
+				5F68640A190FAC1A000BA7B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F6863DA190FAC1A000BA7B3 = {
+			isa = PBXGroup;
+			children = (
+				5F6863EC190FAC1A000BA7B3 /* Zerone */,
+				5F68640E190FAC1A000BA7B3 /* ZeroneTests */,
+				5F6863E5190FAC1A000BA7B3 /* Frameworks */,
+				5F6863E4190FAC1A000BA7B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6863E4190FAC1A000BA7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6863E3190FAC1A000BA7B3 /* Zerone.app */,
+				5F686407190FAC1A000BA7B3 /* ZeroneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F6863E5190FAC1A000BA7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F686420190FD546000BA7B3 /* GameKit.framework */,
+				5F6863E6190FAC1A000BA7B3 /* Foundation.framework */,
+				5F6863E8190FAC1A000BA7B3 /* CoreGraphics.framework */,
+				5F6863EA190FAC1A000BA7B3 /* UIKit.framework */,
+				5F686408190FAC1A000BA7B3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F6863EC190FAC1A000BA7B3 /* Zerone */ = {
+			isa = PBXGroup;
+			children = (
+				5F6863F5190FAC1A000BA7B3 /* AppDelegate.h */,
+				5F6863F6190FAC1A000BA7B3 /* AppDelegate.m */,
+				5F6863F8190FAC1A000BA7B3 /* Main_iPhone.storyboard */,
+				5F6863FB190FAC1A000BA7B3 /* Main_iPad.storyboard */,
+				5F6863FE190FAC1A000BA7B3 /* ViewController.h */,
+				5F6863FF190FAC1A000BA7B3 /* ViewController.m */,
+				5F686401190FAC1A000BA7B3 /* Images.xcassets */,
+				5F6863ED190FAC1A000BA7B3 /* Supporting Files */,
+			);
+			path = Zerone;
+			sourceTree = "<group>";
+		};
+		5F6863ED190FAC1A000BA7B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F6863EE190FAC1A000BA7B3 /* Zerone-Info.plist */,
+				5F6863EF190FAC1A000BA7B3 /* InfoPlist.strings */,
+				5F6863F2190FAC1A000BA7B3 /* main.m */,
+				5F6863F4190FAC1A000BA7B3 /* Zerone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F68640E190FAC1A000BA7B3 /* ZeroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F686414190FAC1B000BA7B3 /* ZeroneTests.m */,
+				5F68640F190FAC1B000BA7B3 /* Supporting Files */,
+			);
+			path = ZeroneTests;
+			sourceTree = "<group>";
+		};
+		5F68640F190FAC1B000BA7B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F686410190FAC1B000BA7B3 /* ZeroneTests-Info.plist */,
+				5F686411190FAC1B000BA7B3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6863E2190FAC1A000BA7B3 /* Zerone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F686418190FAC1B000BA7B3 /* Build configuration list for PBXNativeTarget "Zerone" */;
+			buildPhases = (
+				5F6863DF190FAC1A000BA7B3 /* Sources */,
+				5F6863E0190FAC1A000BA7B3 /* Frameworks */,
+				5F6863E1190FAC1A000BA7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zerone;
+			productName = Zerone;
+			productReference = 5F6863E3190FAC1A000BA7B3 /* Zerone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F686406190FAC1A000BA7B3 /* ZeroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F68641B190FAC1B000BA7B3 /* Build configuration list for PBXNativeTarget "ZeroneTests" */;
+			buildPhases = (
+				5F686403190FAC1A000BA7B3 /* Sources */,
+				5F686404190FAC1A000BA7B3 /* Frameworks */,
+				5F686405190FAC1A000BA7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F68640D190FAC1A000BA7B3 /* PBXTargetDependency */,
+			);
+			name = ZeroneTests;
+			productName = ZeroneTests;
+			productReference = 5F686407190FAC1A000BA7B3 /* ZeroneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6863DB190FAC1A000BA7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Schem;
+				TargetAttributes = {
+					5F6863E2190FAC1A000BA7B3 = {
+						DevelopmentTeam = H957Q87XZ7;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					5F686406190FAC1A000BA7B3 = {
+						TestTargetID = 5F6863E2190FAC1A000BA7B3;
+					};
+				};
+			};
+			buildConfigurationList = 5F6863DE190FAC1A000BA7B3 /* Build configuration list for PBXProject "Zerone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F6863DA190FAC1A000BA7B3;
+			productRefGroup = 5F6863E4190FAC1A000BA7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6863E2190FAC1A000BA7B3 /* Zerone */,
+				5F686406190FAC1A000BA7B3 /* ZeroneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6863E1190FAC1A000BA7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6863FD190FAC1A000BA7B3 /* Main_iPad.storyboard in Resources */,
+				5F686402190FAC1A000BA7B3 /* Images.xcassets in Resources */,
+				5F6863FA190FAC1A000BA7B3 /* Main_iPhone.storyboard in Resources */,
+				5F6863F1190FAC1A000BA7B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F686405190FAC1A000BA7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F686413190FAC1B000BA7B3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6863DF190FAC1A000BA7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F686400190FAC1A000BA7B3 /* ViewController.m in Sources */,
+				5F6863F7190FAC1A000BA7B3 /* AppDelegate.m in Sources */,
+				5F6863F3190FAC1A000BA7B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F686403190FAC1A000BA7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F686415190FAC1B000BA7B3 /* ZeroneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F68640D190FAC1A000BA7B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F6863E2190FAC1A000BA7B3 /* Zerone */;
+			targetProxy = 5F68640C190FAC1A000BA7B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F6863EF190FAC1A000BA7B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6863F0190FAC1A000BA7B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5F6863F8190FAC1A000BA7B3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6863F9190FAC1A000BA7B3 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5F6863FB190FAC1A000BA7B3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F6863FC190FAC1A000BA7B3 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5F686411190FAC1B000BA7B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F686412190FAC1B000BA7B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F686416190FAC1B000BA7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F686417190FAC1B000BA7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F686419190FAC1B000BA7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zerone/Zerone-Prefix.pch";
+				INFOPLIST_FILE = "Zerone/Zerone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F68641A190FAC1B000BA7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zerone/Zerone-Prefix.pch";
+				INFOPLIST_FILE = "Zerone/Zerone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5F68641C190FAC1B000BA7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zerone.app/Zerone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zerone/Zerone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZeroneTests/ZeroneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5F68641D190FAC1B000BA7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zerone.app/Zerone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zerone/Zerone-Prefix.pch";
+				INFOPLIST_FILE = "ZeroneTests/ZeroneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6863DE190FAC1A000BA7B3 /* Build configuration list for PBXProject "Zerone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F686416190FAC1B000BA7B3 /* Debug */,
+				5F686417190FAC1B000BA7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F686418190FAC1B000BA7B3 /* Build configuration list for PBXNativeTarget "Zerone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F686419190FAC1B000BA7B3 /* Debug */,
+				5F68641A190FAC1B000BA7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F68641B190FAC1B000BA7B3 /* Build configuration list for PBXNativeTarget "ZeroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F68641C190FAC1B000BA7B3 /* Debug */,
+				5F68641D190FAC1B000BA7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6863DB190FAC1A000BA7B3 /* Project object */;
+}
