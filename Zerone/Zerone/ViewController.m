@@ -34,6 +34,7 @@
 
 - (IBAction)numberButtons:(id)sender
 {
+    //Get next number or reset based on what you clicked
     if ([[(UIButton *)sender titleLabel].text isEqualToString:self.numberLabel.text]) {
         [self clickedRightNumber];
         [self generateRandomNumber];
@@ -45,6 +46,7 @@
 
 - (void)generateRandomNumber
 {
+    //Random number
     int r = arc4random_uniform(2);
     self.numberLabel.text = [NSString stringWithFormat:@"%i",r];
 }
@@ -56,6 +58,7 @@
 
 - (void)clickedWrongNumber
 {
+    //Wrong number
     [self.timer invalidate];
     self.label0.enabled = NO;
     self.label1.enabled = NO;
@@ -67,6 +70,7 @@
 
 - (void)tooSlow
 {
+    //Timer hit zero
     [self.timer invalidate];
     self.label0.enabled = NO;
     self.label1.enabled = NO;
@@ -78,6 +82,7 @@
 
 - (void)reset
 {
+    //Reenable tapping and score reset
     self.label0.enabled = YES;
     self.label1.enabled = YES;
     [self generateRandomNumber];
@@ -93,6 +98,7 @@
 - (void)startTimer
 {
     [self.timer invalidate];
+    //Timer time should decrease so it would get harder
     self.timer = [NSTimer scheduledTimerWithTimeInterval:0.5 / self.score + 0.5
                                                   target:self
                                                 selector:@selector(tooSlow)
